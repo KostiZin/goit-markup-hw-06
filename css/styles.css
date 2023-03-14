@@ -571,7 +571,79 @@ button {
 	transform: translate(-50%, -50%) scale(0);
 }
 
-/* ----------------- /MODAL WINDOW -------------- */
+/* ======================== /MODAL WINDOW ====================== */
+/* ======================== MODAL FORM ====================== */
+
+
+.modal-window-name {
+	font-weight: 500;
+	text-align: center;
+	color: var(--main-color-dark);
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.modal-form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+}
+
+.modal-form-field {}
+
+.modal-form-input-desc {
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.04em;
+	color: var(--customers-icons);
+
+}
+
+.modal-form-input {
+	width: 100%;
+	min-height: 40px;
+	margin-top: 4px;
+	padding-left: 38px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	transition: border var(--transition-func);
+}
+
+.modal-form-input:is(:hover, :focus) {
+	border: 1px solid var(--primary-brand-color);
+}
+
+.modal-form-message {
+	/* width: 360px;
+	height: 120px; */
+
+}
+
+.modal-form-checkbox {
+	flex-direction: row;
+}
+
+.modal-form-check {}
+
+.modal-form-check-desc {}
+
+.button-modal-window {
+	min-width: 169px;
+	color: var(--white-color);
+	background-color: var(--primary-brand-color);
+	display: block;
+	margin: 0 auto;
+	margin-top: 24px;
+	transition: color var(--transition-func), background-color var(--transition-func);
+}
+
+.button-modal-window:is(:hover, :focus) {
+	color: var(--white-color);
+	background-color: var(--hover-active-color);
+}
+
+/* ----------------- /MODAL FORM -------------- */
 /* -------------- PORTFOLIO 1st screen ---------------- */
 
 .portfolio-btn {
