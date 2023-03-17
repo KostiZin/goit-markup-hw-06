@@ -528,12 +528,12 @@ button {
 
 .footer-form-action {
 	display: flex;
-	margin-top: 16px;
+
+
 }
 
 .footer-form-main {
-	/* display: flex; */
-
+	margin-right: 24px;
 
 }
 
@@ -545,7 +545,7 @@ button {
 	background-color: transparent;
 	padding: 8px 16px;
 	color: var(--white-color);
-	margin-right: 24px;
+
 	transition: border-color var(--transition-func);
 }
 
@@ -672,6 +672,7 @@ button {
 .modal-form-field-text {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 16px;
 
 }
 
@@ -724,7 +725,6 @@ button {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	resize: none;
-	margin-bottom: 16px;
 	transition: border-color var(--transition-func);
 
 }
@@ -748,7 +748,7 @@ button {
 
 .modal-form-check:checked+.modal-form-check-desc::before {
 	background-color: var(--hover-active-color);
-	background-image: url(/images/svg/modal-window/checkbox.svg);
+	background-image: url(../images/svg/modal-window/checkbox.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 
